@@ -1,4 +1,4 @@
-# Tweet Xer
+# Tratamiento de archivos de la copia de seguridad de X (Twitter)
 Lee el archivo de publicaciones de una copia de seguridad de X (Twitter) y crea un archivo de salida seleccionando los tweets de un año introducido por parámetro.
 ## Ejecución desde el navegador
 - El script está preparado para ser ejecutado desde un navegador web.
@@ -8,4 +8,3 @@ Lee el archivo de publicaciones de una copia de seguridad de X (Twitter) y crea 
 - El script utiliza los archivos tweet-headers-copia.js y tweet-headers-salida-(año). Asegúrate de que el archivo de entrada existe y está en la ruta especificada, y que el servidor web tiene permisos para leer y escribir en estos archivos. El archivo tweet-headers-copia.js es una copia del archivo /data/tweet-headers.js obtenido a partir de una copia de seguridad de X (Twitter).
 ## Permisos de archivos
 - Asegúrate de que el servidor web tenga los permisos adecuados para leer el archivo de entrada y escribir en el archivo de salida.
-
